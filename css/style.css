@@ -91,7 +91,6 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .section-3{
     background-color: #E5E9F2;
@@ -117,7 +116,6 @@ justify-content: center;
     padding-bottom: 4rem;
     display: flex;
     justify-content: center;
-
 }
 .brand-div h1{
 color:#969FAA ;
@@ -137,6 +135,47 @@ font-size: 40px;
     width: 100%;
     height: 100%;
 }
+.section-5{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.section-5-div{
+    width: 100px;
+    height: 100px;
+}
+.page-div{
+    text-align: center;
+}
+.link{
+    padding-top: 40px;
+   text-decoration: none;
+    font-weight: bold;
+    color: #47525E;
+}
+.page-div div{
+    margin: 20px auto !important;
+}
+.section-5-div img{
+    width: 100%;
+    height: 100%;
+}
+.section-5-div a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #47525E;
+}
+.section-6{
+    height: 500px;
+}
+.section-6 div h1{
+    font-weight:bold ;
+    font-size: 40px;
+    color: #47525E;
+}
+.section-6 div p{
+    font-size: 20px;
+    color: #47525E;
+}
 @media (max-width: 576px) {
     .img-div img{
     display:none;
@@ -147,6 +186,14 @@ font-size: 40px;
 }
 .company-span{
     font-size: 16px;
+}
+.section-6 div h1{
+    font-size: 20px;
+    padding: 20px;
+}
+.section-6 div p{
+    font-size: 18px;
+    padding: 10px 20px;
 }
 }
 @media(max-width:768px){
