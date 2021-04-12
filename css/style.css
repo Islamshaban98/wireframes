@@ -176,6 +176,35 @@ font-size: 40px;
     font-size: 20px;
     color: #47525E;
 }
+.sign-in-txt{
+    color: #47525E;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.sign-in-parag{
+    color: #8190A5;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+.modal-button {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+}
+.forget-txt{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #47525E;
+}
+.modal-content{
+    padding: 40px;
+}
+.modal-input input{
+    border: 1px solid #8492A6;
+    margin-bottom: 20px;
+    padding: 10px;
+}
 @media (max-width: 576px) {
     .img-div img{
     display:none;
