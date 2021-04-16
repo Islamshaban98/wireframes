@@ -14,21 +14,26 @@
       <section class="section-1">
           <nav class="navbar navbar-expand-lg navbar-light p-5">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/logo.png" class="logo" /></a>
+                  <div class="logo-div">
+                      <a class="navbar-brand logo" href="#"><img src="./img/logo.png" /></a>
+                      <div>
+
+                          <h1 class="company-name" aria-current="page" href="#">Company Name</h1>
+                          <p class="company-span">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                      </div>
+                  </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column company-name-ul">
+                    
                     <li class="nav-item">
-                      <a class="nav-link company-name" aria-current="page" href="#">Company Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active company-span" aria-current="page" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                        <a class="nav-link active company-span" aria-current="page" href="#"></a>
                     </li>
                   </ul>
                   <form class="d-flex">
-                    <button class="btn btn-outline-success" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">no content</button>
+                    <button class="btn btn-outline-success custom-btn" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">no content</button>
                   </form>
                 </div>
               </div>
@@ -58,9 +63,9 @@
             <div class="row p-5" >
                 <div class="col-lg-6">
                     <div class="left-side">
-                        <h2>
+                        <h1 class="left-side-parag">
                             Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod tempor 
-                        </h2>
+                        </h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna aliqua. Faucibus turpis in eu mi bibendum neque
                         </p>
@@ -83,7 +88,7 @@
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doe. 
               </h3>
-              <div class="row margin-row">
+              <div class="row margin-row img-container-div">
                   <div class="col-lg-2">
                       <div class="img-container">
                           <img src="./img/logo.png"/>
@@ -114,17 +119,16 @@
               <div class="row margin-row">
                   <div class="col-lg-4">
                       <p class="parag-1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum posuere urna nec. Nisl tincidunt eget nullam non nisi est. 
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. In fermentum <br>posuere urna nec. Nisl tincidunt eget<br> nullam non nisi est. 
                       </p>
                   </div>
                   <div class="col-lg-4">
                     <p class="parag-1">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum posuere urna nec. Nisl tincidunt eget nullam non nisi est. 
-                    </p>
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. In fermentum <br>posuere urna nec. Nisl tincidunt eget<br> nullam non nisi est. </p>
                 </div>
                 <div class="col-lg-4">
                     <p class="parag-1">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum posuere urna nec. Nisl tincidunt eget nullam non nisi est. 
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. In fermentum <br>posuere urna nec. Nisl tincidunt eget<br> nullam non nisi est. 
                     </p>
                 </div>
 
@@ -149,16 +153,16 @@
           </div>
       </section>
       <footer class="section-4"> 
-          <div class="row container">
-              <div class="col-lg-4">
+          <div class="footer-div container">
+              <div >
                   <div class="d-flex brand-div">
-                      <a class="navbar-brand" href="#"><img src="./img/logo.png" class="logo" /></a>
+                      <a class="navbar-brand footer-logo" href="#"><img src="./img/logo.png"/></a>
                       <h1>
                           Company <br>Name
                       </h1>
                   </div>
               </div>
-              <div class="col-lg-4">
+              <div class="page-link-div">
                   <div class="d-flex list-div">
                       <ul>
                           <li>
@@ -184,16 +188,16 @@
                       </ul>
                   </div>
             </div>
-            <div class="col-lg-4">
+            <div >
                 <div class="content-div">
                     <p style="color: #F7F7F7;">
                         Lorem ipsum dolor sit amet
                     </p>
-                    <div class="input-group">
+                    <div class="footer-input-div">
                         <input type="text" aria-label="Last name" class="form-control" placeholder="text enty box">
                     <button class="input-group-text button-g">button 3</button>
                 </div>
-                <div class="social-icons d-flex mt-1">
+                <div class="social-icons d-flex mt-4">
                     <a class="social-link"><img src="./img/logo.png"></a>
                     <a class="social-link"> <img src="./img/logo.png"></a>
                     <a class="social-link"><img src="./img/logo.png"></a>
