@@ -13,8 +13,22 @@ height: 937px;
 .navbar-light{
     background-color: #E5E9F2;
 }
-.row{
+/* .row{
     margin: 0 !important;
+} */
+.form-floating{
+    margin-top: 70px;
+}
+.progress-parag{
+    font-size: 20px;
+    color: #343F4B;
+}
+.progress-bar{
+    background-color: #47525E;
+}
+.floating-textarea2{
+    color: #8190A5 !important;
+    font-size: 18px !important;
 }
 .logo{
     width: 40px;
@@ -433,6 +447,7 @@ font-size: 41px;
 .section-8-parag{
     font-size: 23px;
     color: #343F4B;
+    margin-top: 20px;
 }
 .section-8-parag2{
     color: #343F4B;
