@@ -16,7 +16,7 @@ height: 937px;
 /* .row{
     margin: 0 !important;
 } */
-.form-floating{
+.text-area-1{
     margin-top: 70px;
 }
 .progress-parag{
@@ -133,7 +133,7 @@ background-color: #fff !important;
     height: 100%;
 }
 .hr-1{
-    border: 3px #969FAA solid ;
+    border: 2px #969FAA solid ;
 }
 .parag-1{
 text-align: left;
@@ -474,6 +474,129 @@ margin-top: 150px;
 }
 .create-profile-container{
     padding-left: 100px;
+}
+.section-9{
+    height: 713px;
+}
+.section-9-heading{
+    font-size: 42px;
+    color: #343F4B;
+    font-weight: bold;
+}
+.section-9-parag{
+    font-size: 33px;
+    color: #343F4B;
+}
+.first-img-div{
+    width: 230px;
+    height: 218px;
+}
+.second-img-div{
+    width: 516.8px;
+    height: 336.9px;
+}
+.third-img-div{
+    width: 726px;
+    height: 347.5px;
+}
+.first-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.second-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.third-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.img-num-container{
+    display: flex;
+    margin-top: 100px;
+}
+.img-num-container div{
+    margin-right: 100px;
+}
+.section-10{
+    height: 767px;
+}
+.section10-img-div{
+    width: 566.5px;
+    height: 302px;
+    margin-right: 100px;
+}
+.section-10-container{
+    margin-top: 90px;
+    display: flex;
+}
+.section10-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.section10-input-div{
+margin-right: 70px;
+}
+.section10-input-div input{
+    border: #8492A6 1px solid;
+    width: 313px;
+    height: 38px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #343F4B;
+    padding: 10px;
+}
+.first-list{
+margin-right: 200px;
+}
+.first-list p{
+    font-size: 20px;
+    color: #343F4B;
+    margin-top: -35px;
+}
+.first-list li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #343F4B;
+}
+.section-11{
+    height: 1117px;
+}
+.div-input-1 {
+    width: 314px;
+    height: 206px;
+    margin-bottom: 50px;
+}
+.text-area-2{
+    /* width: 314px; */
+    height: 206px;
+    margin-bottom: 50px;
+}
+.text-area-2 textarea{
+    color: #8190A5;
+    font-size: 18px;
+}
+.text-area-2 label{
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 18px;
+}
+.section11-input-div input{
+    border: #8492A6 1px solid;
+    width: 313px;
+    height: 38px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #343F4B;
+    padding: 10px;
+}
+.container-11{
+    margin-top: 70px;
+}
+.container-11 div{
+    margin-right: 30px;
 }
 @media (max-width: 576px) {
 .img-div img{
