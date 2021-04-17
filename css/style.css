@@ -377,7 +377,7 @@ font-size: 41px;
 
 }
 .dropDown-span{
-    padding-right: 170px;
+    padding-right: 100px;
 }
 .btn-outline-secondary{
     color: #47525E !important;
@@ -422,7 +422,7 @@ font-size: 41px;
 .dropdown1{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 313px;
 }
 .footer-title{
     line-height: 40px;
@@ -471,6 +471,9 @@ font-size: 41px;
 }
 .horizontal-line{
 margin-top: 150px;
+}
+.create-profile-container{
+    padding-left: 64px;
 }
 @media (max-width: 576px) {
 .img-div img{
