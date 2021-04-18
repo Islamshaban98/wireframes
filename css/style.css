@@ -6,6 +6,10 @@ body{
     font-family: GlacialIndifference;
     src: url(/font/GlacialIndifference-Bold.otf);
   }
+@font-face {
+    font-family: GlacialIndifference;
+    src: url(/font/GlacialIndifference-Regular.otf);
+  }
 .section-1{
 background-color: #E5E9F2;
 height: 937px;
@@ -354,8 +358,7 @@ font-size: 41px;
 .prrofile-title{
     color: #5A6978;
     font-size: 42px;
-    padding: 20px 0;
-    margin-top: 40px;
+   padding-bottom: 20px;
     font-weight: bold;
 }
 .div-link{
@@ -384,7 +387,7 @@ font-size: 41px;
 }
 
 .dropdown1 input{
-    margin-top: 10px;
+    margin-top: 12px;
     padding: 8px;
     height: 58px;
     font-size: 20px;
@@ -437,7 +440,8 @@ font-size: 41px;
     height: 1399px;
 }
 .section-8-div{
-    padding: 70px;
+    margin-left: 111px;
+    margin-top: 82px;
 }
 .section-8-heading{
     font-size: 42px;
@@ -473,7 +477,8 @@ font-size: 41px;
 margin-top: 150px;
 }
 .create-profile-container{
-    padding-left: 100px;
+    margin-left: 111px;
+    margin-top: 82px;
 }
 .section-9{
     height: 713px;
@@ -598,6 +603,9 @@ margin-right: 200px;
 .container-11 div{
     margin-right: 30px;
 }
+.mt-12{
+    margin-top: 12px;
+}
 @media (max-width: 576px) {
 .img-div img{
     display:none;
@@ -637,6 +645,7 @@ margin-right: 200px;
 .dropdown1{
     margin: auto;
 }
+
 }
 @media(max-width:768px){
     .img-div {
