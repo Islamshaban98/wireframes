@@ -393,9 +393,12 @@ font-size: 41px;
     font-size: 20px;
     color: #969FAA;
 }
-/* .input-1{
-    margin-top: 15px;
-} */
+.m-b-24{
+    margin-bottom: 24px;
+}
+.input-container{
+    margin-right: 48px;
+}
 .input-2{
     margin-top: 12px;
 }
