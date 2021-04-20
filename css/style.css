@@ -17,6 +17,19 @@ height: 937px;
 .navbar-light{
     background-color: #E5E9F2;
 }
+.modal{
+    height: 937px;
+}
+.modal-backdrop{
+    background-color: #E5E9F2 !important;
+    width: 1532px !important;
+    height:937px !important;
+    opacity: 80% !important;
+    margin-left: 197.7px;
+}
+.modal-dialog{
+    margin-top: 188.78px !important;
+}
 /* .row{
     margin: 0 !important;
 } */
@@ -305,6 +318,7 @@ font-size: 41px;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
+    line-height: 51px;
 }
 .sign-in-parag{
     color: #8190A5;
@@ -319,11 +333,16 @@ font-size: 41px;
     padding-right: 126px;
     font-size: 20px;
 }
+.modal2-button{
+ margin-top: 28px;
+}
 .forget-txt{
     text-decoration: none;
     margin-top: 20px;
     color: #47525E;
     font-size: 16px;
+    background-color: transparent;
+    border: none;
 }
 .modal-dialog{
     max-width: 638.33px !important;
@@ -338,11 +357,14 @@ font-size: 41px;
 .modal-input{
     width: 306px;
     margin: auto;
+    margin-top: 25px;
+
 }
 .modal-input input{
     border: 1px solid #8492A6;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 10px;
+    height: 53px;
 }
 .profile-div{
     width: 230px;
